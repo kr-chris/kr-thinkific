@@ -1,0 +1,144 @@
+// Overrides
+// ======================================
+
+
+.dib-post-title{
+font-size:200%;
+}
+div.dib-post-content p{
+font-size:150%;
+}
+.dib-single .dib-post-title{
+font-size:250%;
+}
+.dib-single {
+margin-top:30px;
+}
+
+#dib-template-2 .dib-post-single blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #00d2f2 !important;
+border-top:0;
+border-right:0;
+border-bottom:0;
+  padding: 0.5em 10px;
+}
+
+.dib-single blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+.dib-single blockquote p {
+  display: inline;
+font-size:80%;
+}
+.dib-single blockquote span {
+  display: block;
+  text-align: right;
+  font-size: 14px;
+  margin-top: 10px;
+  text-transform: uppercase;
+font-weight:bold;
+}
+/*Apply padding to the left and right when on mobile*/
+
+
+@media only screen and (max-width: 600px) {
+.dib-post-content.dib-highlight, h1.dib-highlight, #dib-template-2 p.dib-meta-text {
+    padding: 0 30px 0 30px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+#dib-template-2 .dib-post-single p.dib-meta-text {
+    margin-left:30px;
+}
+}
+/*Decrease video section height*/
+section.video{
+    height:500px;
+    border-bottom:5px solid #00d2f2;
+
+}
+/*On mobile switch the height of videos to auto*/
+@media only screen and (max-width: 600px) {
+section.video{
+    height:auto;
+
+}
+}
+
+/*On home page add top margin to explore agile foundations button*/
+@media only screen and (max-width: 600px) {
+.rich-text___50a87{
+   margin-top:30px;
+}
+}
+.center-text{
+    text-align:center;
+}
+
+/**** Remove all padding / margin / spacing from a Text & Media Section ****/
+.rich-text__container{
+    margin:0 auto;
+    padding:0;
+}
+.rich-text__wrapper{
+ padding:0;
+ margin:0;
+}
+.rich-text__wrapper .section__content{
+    max-width:100%;
+    flex:none;
+    margin:0;
+    padding:0px;
+}
+/*** When on mobile, apply padding to the left and right so the content doesn't hit the edges ***/
+@media only screen and (max-width: 992px) {
+.section__content{
+   padding-left:1rem !important;
+   padding-right:1rem !important;
+}
+}
+
+/***Make mobile responsive layouts for custom html in text & media section***/
+.kr-container {
+		display: flex; flex-direction: row;
+		margin-bottom:1rem;
+
+	}
+
+.kr-container div.item {
+		flex: 1;
+		padding:1rem;
+	}
+
+@media(max-width: 992px) {
+	.kr-container {
+	flex-direction: column;
+		}
+	}
+.rich-text__container .kr-container ul{
+    margin-left:2rem;
+    margin-bottom:1rem;
+    padding:0 !important;
+    padding-left:0 !important;
+}
+p.section__subheading{
+    font-weight:600;
+    font-size:1.3rem;
+    margin-bottom:.5rem;
+    color:#166EB8;
+}
+.learner-get{
+	width:33%;
+  float:left;
+  padding:.5rem;
+  }
+ .learner-get img{
+     width:65%;
+ }
