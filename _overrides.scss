@@ -1,4 +1,4 @@
-// Overrides 
+// Overrides
 // ======================================
 
 
@@ -142,3 +142,15 @@ p.section__subheading{
  .learner-get img{
      width:65%;
  }
+.showcase__list-item img {
+    margin-bottom:10px;
+}
+.showcase__list-item h4 {
+    font-size:1.4rem;
+}
+.rich-text__container .showcase__list{
+  margin-top: 2rem;
+}
+.showcase__list{
+ align-items:flex-start;
+}
