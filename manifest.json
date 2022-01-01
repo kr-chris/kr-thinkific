@@ -242,6 +242,11 @@
               "group": "Sans-serif"
             },
             {
+            "value": "Sedgwick Ave",
+            "label": "Sedgwick Ave",
+            "group": "Sans-serif"
+          },
+            {
               "value": "Archivo",
               "label": "Archivo",
               "group": "Sans-serif"
@@ -335,6 +340,11 @@
               "label": "Francois One",
               "group": "Sans-serif"
             },
+            {
+            "value": "Sedgwick Ave",
+            "label": "Sedgwick Ave",
+            "group": "Sans-serif"
+          },
             {
               "value": "Archivo",
               "label": "Archivo",
@@ -445,6 +455,11 @@
               "group": "Sans-serif"
             },
             {
+            "value": "Sedgwick Ave",
+            "label": "Sedgwick Ave",
+            "group": "Sans-serif"
+          },
+            {
               "value": "Archivo",
               "label": "Archivo",
               "group": "Sans-serif"
@@ -533,6 +548,11 @@
               "label": "Francois One",
               "group": "Sans-serif"
             },
+            {
+            "value": "Sedgwick Ave",
+            "label": "Sedgwick Ave",
+            "group": "Sans-serif"
+          },
             {
               "value": "Archivo",
               "label": "Archivo",
