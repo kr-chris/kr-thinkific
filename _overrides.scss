@@ -55,6 +55,13 @@ font-size:80%;
 font-weight:bold;
 }
 
+/*** Reduce table font size on mobile ***/
+@media only screen and (max-width: 992px) {
+.dib table{
+   font-size:90%;
+}
+}
+
 .dib table {
   border-spacing: 0;
   width: 100%;
