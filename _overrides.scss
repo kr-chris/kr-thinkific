@@ -58,7 +58,7 @@ font-weight:bold;
 /*** Reduce table font size on mobile ***/
 @media only screen and (max-width: 992px) {
 .dib table{
-   font-size:90%;
+   font-size:60%;
 }
 }
 
@@ -233,4 +233,23 @@ p.section__subheading{
 }
 .text-icon__list-item .fa, .text-icon__list-item h3{
     margin-bottom: 1rem;
+}
+@media only screen and (max-width: 992px) {
+.section__content-alignment--left .text-image__body, .section__content-alignment--left .text-image__body header.section__headings h2.section__heading{
+  text-align:center;
+}
+}
+@media only screen and (max-width: 992px) {
+.section__content-alignment--right .text-image__body, .section__content-alignment--right .text-image__body header.section__headings h2.section__heading{
+  text-align:center;
+}
+}
+.lead-capture__container{
+    text-align:center;
+}
+section.lead-capture .button-primary{
+    margin:0 auto;
+}
+section.lead-capture .form__label{
+    visibility:hidden;
 }
