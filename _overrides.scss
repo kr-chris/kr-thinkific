@@ -253,3 +253,19 @@ section.lead-capture .button-primary{
 section.lead-capture .form__label{
     display:none;
 }
+.marker{
+  position:relative;
+}
+
+.marker:before{
+  content:"";
+  background-color:#FFEA00;
+  width:106%;
+  height:1.2em;
+  position:absolute;
+  z-index:-1;
+  filter:url(#marker-shape);
+  left:-.3em;
+  top:0.2em;
+  padding:0 1em;
+}
