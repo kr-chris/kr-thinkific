@@ -225,6 +225,20 @@ p.section__subheading{
  .learner-get img{
      width:65%;
  }
+
+ .rich-text___b3527 .showcase__list-item{
+     flex: 0 0 30%;
+     max-width:30%;
+ }
+
+
+ @media only screen and (max-width: 992px) {
+ .rich-text___b3527 .showcase__list-item{
+     flex: 0 0 100%;
+     max-width:100%;
+
+ }
+ }
 .showcase__list-item img {
     margin-bottom:10px;
 }
