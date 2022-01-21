@@ -289,3 +289,92 @@ section.lead-capture .form__label{
   top:0.2em;
   padding:0 1em;
 }
+
+/*************** TESTIMONIALS******************/
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Gochi+Hand&family=Permanent+Marker&family=Rock+Salt&display=swap');
+
+.text-image__body___0e977{
+
+    padding: 0 1rem 0 0;
+
+}
+.text-image___0e977 .section__heading___0e977{
+    font-size:140%;
+    /*font-family: 'Caveat Brush', cursive;*/
+font-family: 'Rock Salt', cursive;
+
+
+    color:#fff;
+    line-height:210%;
+
+}
+.text-image___0e977 .section__body{
+    text-align:right;
+    color:#00d2f2;
+    margin-top:1rem;
+
+}
+.text-image__image___0e977, .text-image__image___0e977 img{
+    align-self: flex-start;
+
+}
+
+.text-image__image___0e977 img{
+    box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, .1);
+    border: 5px solid #fff;
+    border-radius:50%;
+}
+.text-image___0e977{
+    background: rgb(60,60,70);
+    background: radial-gradient(circle, rgba(60,60,70,1) 0%, rgba(30,30,30,1) 100%);
+}
+
+.text-image__body___0e977 .section__headings{
+    margin:0;
+}
+
+/*lindsey*/
+.text-image__body___ed23f{
+
+    padding: 0 1rem 0 0;
+
+}
+.text-image___ed23f .section__heading___ed23f{
+    font-size:140%;
+    /*font-family: 'Caveat Brush', cursive;*/
+font-family: 'Rock Salt', cursive;
+
+
+    color:#fff;
+    line-height:210%;
+
+}
+.text-image___ed23f .section__body{
+    text-align:right;
+    color:#00d2f2;
+    margin-top:1rem;
+
+}
+.text-image__image___ed23f, .text-image__image___ed23f img{
+    align-self: flex-start;
+
+}
+
+.text-image__image___ed23f img{
+    box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, .1);
+    border: 5px solid #fff;
+    border-radius:50%;
+}
+.text-image___ed23f{
+    background: rgb(60,60,70);
+    background: radial-gradient(circle, rgba(60,60,70,1) 0%, rgba(30,30,30,1) 100%);
+}
+
+.text-image__body___ed23f .section__headings{
+    margin:0;
+}
+@media only screen and (max-width: 992px) {
+.text-image__image___ed23f img, .text-image__image___0e977 img,  {
+     margin:0 auto;
+}
+}
