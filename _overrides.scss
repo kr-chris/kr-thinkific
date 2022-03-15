@@ -355,6 +355,12 @@ font-family: 'Rock Salt', cursive;
     margin-top:1rem;
 
 }
+
+@media only screen and (max-width: 992px) {
+.text-image___ed23f .section__body{
+    text-align:center;
+}
+}
 .text-image__image___ed23f, .text-image__image___ed23f img{
     align-self: flex-start;
 
