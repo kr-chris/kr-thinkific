@@ -4,7 +4,6 @@
 		gap:20px 20px;
 	}
 	.kr-container.pricing > .item {
-		background-color:#ededed;
 		padding:0;
 	}
 	.pricing > .item > h3{
@@ -39,10 +38,55 @@ h3 span{
 	font-size:70%;
 }
 
+.item > table {
+	background:#fff;
+	text-align:center;
+	box-shadow:5px 5px 5px 0px rgba(0, 0, 0, .06);
+}
+.pricing table th {
+	text-align:center;
+}
+.pricing tr{
+	line-height:1rem;
+}
+.pricing table.first td:nth-child(1) {
+  font-size:85%;
+  font-weight:bold;
+}
+.pricing .item table.first th {
+ 	background-color:#166eb8;
+	color:#fff;
+}
+.pricing .item table.teams th {
+ 	background-color:#22cdb8;
+	color:#fff;
+}
+.pricing .item table th {
+ 	background-color:#00d2f2;
+	color:#fff;
+}
+.pricing table td:nth-child(1) {
+	text-align:center;
+}
+
+.pricing table.first th:nth-child(1) {
+	background-color:transparent;
+	border:none;
+}
+.pricing table i.fa-check-circle-o{
+	color:green;
+}
+i.fa-star-o{
+	font-size:90%;
+	color:green;;
+}
+h2.section__heading{
+	margin-bottom:2rem;
+}
 
 </style>
 
-<h2 class="section__heading center-text">Pricing</h2>
+<h2 class="section__heading center-text">Volume Pricing Options</h2>
 
 <!--Open Container -->
 <div class="kr-container pricing">
@@ -50,11 +94,11 @@ h3 span{
 
 	<!--open item 1-->
 	<div class="item">
-		<table>
+		<table class="first">
 			<thead>
 				<tr>
 					<th>&nbsp;</th>
-					<th>Individual</th>
+					<th>Individual<br/>$499</th>
 				</tr>
 			</thead>
 			<tbody>
@@ -72,24 +116,172 @@ h3 span{
 				</tr>
 				<tr>
 					<td>Digital Workbook</td>
-					<td><i class="fa-solid fa-check"></i></td>
-					
+					<td><i class="fa fa-check-circle-o" aria-hidden="true"></i></td>
+				</tr>
+				<tr>
+					<td>Any Device Learning</td>
+					<td><i class="fa fa-check-circle-o" aria-hidden="true"></i></td>
+				</tr>
+				<tr>
+					<td>Bite-size Lessons</td>
+					<td><i class="fa fa-check-circle-o" aria-hidden="true"></i></td>
+				</tr>
+				<tr>
+					<td>Learner Management</td>
+					<td>-</td>
+				</tr>
 
+				<tr>
+					<td>Private Instance</td>
+					<td>-</td>
+				</tr>
+				<tr>
+					<td>Course Customization</td>
+					<td>-</td>
+				</tr>
 
+				<tr>
+					<td>SSO Integration</td>
+					<td>-</td>
 				</tr>
 			</tbody>
 		</table>
 
-
-
-
-
 	</div>
 	<!---close item 1-->
 
+	<!--open item 2-->
+	<div class="item">
+		<table class="teams">
+			<thead>
+				<tr>
+					<th>Small<br/>$3,600</th>
+					<th>Medium<br/>$6,800</th>
+					<th>Large<br/>$9,500</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>8</td>
+					<td>16</td>
+					<td>24</td>
+				</tr>
+				<tr>
+					<td>$450</td>
+					<td>$425</td>
+					<td>$396</td>
+				</tr>
+				<tr>
+					<td>1 year, 24x7</td>
+					<td>1 year, 24x7</td>
+					<td>1 year, 24x7</td>
+				</tr>
+				<tr>
+					<td><i class="fa fa-check-circle-o" aria-hidden="true"></i></td>
+					<td><i class="fa fa-check-circle-o" aria-hidden="true"></i></td>
+					<td><i class="fa fa-check-circle-o" aria-hidden="true"></i></td>
+				</tr>
+				<tr>
+					<td><i class="fa fa-check-circle-o" aria-hidden="true"></i></td>
+					<td><i class="fa fa-check-circle-o" aria-hidden="true"></i></td>
+					<td><i class="fa fa-check-circle-o" aria-hidden="true"></i></td>
+				</tr>
+				<tr>
+					<td><i class="fa fa-check-circle-o" aria-hidden="true"></i></td>
+					<td><i class="fa fa-check-circle-o" aria-hidden="true"></i></td>
+					<td><i class="fa fa-check-circle-o" aria-hidden="true"></i></td>
+				</tr>
+				<tr>
+					<td>-</td>
+					<td>-</td>
+					<td>-</td>
+				</tr>
+				<tr>
+					<td>-</td>
+					<td>-</td>
+					<td>-</td>
+				</tr>
+				<tr>
+					<td>-</td>
+					<td>-</td>
+					<td>-</td>
+				</tr>
+				<tr>
+					<td>-</td>
+					<td>-</td>
+					<td>-</td>
+				</tr>
+
+
+
+			</tbody>
+		</table>
+
+	</div>
+	<!---close item 2-->
+	<!--open item 3-->
+	<div class="item">
+		<table>
+			<thead>
+				<tr>
+					<th>Enterprise<br/>$18,000</th>
+					<th>Ent. Upgrade Pack<br/>$2,000</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>50</td>
+					<td>10</td>
+				</tr>
+				<tr>
+					<td>$360</td>
+					<td>$200</td>
+				</tr>
+				<tr>
+					<td>1 year, 24x7</td>
+					<td>1 year, 24x7</td>
+				</tr>
+				<tr>
+					<td><i class="fa fa-check-circle-o" aria-hidden="true"></i></td>
+					<td><i class="fa fa-check-circle-o" aria-hidden="true"></i></td>
+				</tr>
+				<tr>
+					<td><i class="fa fa-check-circle-o" aria-hidden="true"></i></td>
+					<td><i class="fa fa-check-circle-o" aria-hidden="true"></i></td>
+				</tr>
+				<tr>
+					<td><i class="fa fa-check-circle-o" aria-hidden="true"></i></td>
+					<td><i class="fa fa-check-circle-o" aria-hidden="true"></i></td>
+				</tr>
+				<tr>
+					<td><i class="fa fa-check-circle-o" aria-hidden="true"></i></td>
+					<td><i class="fa fa-check-circle-o" aria-hidden="true"></i></td>
+
+				</tr>
+				<tr>
+					<td><i class="fa fa-star-o" aria-hidden="true"></i></td>
+					<td><i class="fa fa-star-o" aria-hidden="true"></i></td>
+				</tr>
+				<tr>
+					<td><i class="fa fa-star-o" aria-hidden="true"></i></td>
+					<td><i class="fa fa-star-o" aria-hidden="true"></i></td>
+				</tr>
+				<tr>
+					<td><i class="fa fa-star-o" aria-hidden="true"></i></td>
+					<td><i class="fa fa-star-o" aria-hidden="true"></i></td>
+				</tr>
+
+
+
+			</tbody>
+		</table>
+
+	</div>
+	<!---close item 3-->
 
 
 
 
 </div>
 <!--Close Container-->
+<p><i class="fa fa-star-o" aria-hidden="true"></i>: Optional add-on</p>
