@@ -306,9 +306,7 @@ section.lead-capture .form__label{
 .text-image___0e977 .section__heading___0e977{
     font-size:140%;
     /*font-family: 'Caveat Brush', cursive;*/
-font-family: 'Rock Salt', cursive;
-
-
+    font-family: 'Rock Salt', cursive;
     color:#fff;
     line-height:210%;
 
@@ -388,4 +386,8 @@ font-family: 'Rock Salt', cursive;
 .text-image__image___ed23f img, .text-image__image___0e977 img,  {
      margin:0 auto;
 }
+}
+section.faq___da46f details > summary{
+  font-size:130%;
+  color:#237fff;
 }
