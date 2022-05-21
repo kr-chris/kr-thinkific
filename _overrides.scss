@@ -387,7 +387,10 @@ font-family: 'Rock Salt', cursive;
      margin:0 auto;
 }
 }
-section.faq___da46f details > summary{
+section.faq___da46f details > summary, section.faq___e99f7 details > summary{
   font-size:130%;
   color:#237fff;
+}
+section.faq___e99f7 div.faq__container{
+  padding-top:2.5rem;
 }
