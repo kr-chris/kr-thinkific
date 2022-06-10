@@ -394,3 +394,33 @@ section.faq___da46f details > summary, section.faq___e99f7 details > summary{
 section.faq___e99f7 div.faq__container{
   padding-top:2.5rem;
 }
+
+
+.call-to-action__wrapper .section__content___e3574{
+          max-width:60%;
+          flex:0 0 60%;
+
+
+     }
+.call-to-action___e3574{
+     box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, .25);
+
+}
+
+
+@media(max-width: 992px) {
+     .call-to-action__wrapper .section__content___e3574{
+          max-width:90%;
+          flex:0 0 100%;
+          padding:0;
+
+     }
+	}
+.section__button-group___e3574 a.button-primary{
+     background:#fff;
+     color:#237fff;
+}
+.section__button-group___e3574 a:hover.button-primary{
+
+     box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, .25);
+}
