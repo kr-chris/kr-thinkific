@@ -1,6 +1,16 @@
 // Overrides
 // ======================================
+@font-face {
+  font-family: Blackstone;
+  src: url(BlackStone-Regular.ttf);
+  src: url({{ 'BlackStone-Regular.ttf' | theme_asset_url }});
+}
 
+@font-face {
+  font-family: Honey Lemonade;
+  src: url(Honey Lemonade.ttf);
+  src: url({{ 'Honey Lemonade' | theme_asset_url }});
+}
 /***** DROP IN BLOG ****/
 .dib-post-title{
 font-size:200%;
@@ -348,7 +358,7 @@ section.lead-capture .form__label{
 .text-image___ed23f .section__heading___ed23f{
     font-size:140%;
     /*font-family: 'Caveat Brush', cursive;*/
-font-family: 'Rock Salt', cursive;
+font-family: 'Blackstone', cursive;
 
 
     color:#fff;
