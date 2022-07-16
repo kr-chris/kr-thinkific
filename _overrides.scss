@@ -2,14 +2,13 @@
 // ======================================
 @font-face {
   font-family: Blackstone;
-  src: url(BlackStone-Regular.ttf);
   src: url({{ 'BlackStone-Regular.ttf' | theme_asset_url }});
-}
 
+}
 @font-face {
-  font-family: Honey Lemonade;
-  src: url(Honey Lemonade.ttf);
-  src: url({{ 'Honey Lemonade' | theme_asset_url }});
+  font-family: Amithen;
+  src: url({{ 'Amithen.ttf' | theme_asset_url }});
+
 }
 /***** DROP IN BLOG ****/
 .dib-post-title{
@@ -316,14 +315,7 @@ section.lead-capture .form__label{
     padding: 0 1rem 0 0;
 
 }
-.text-image___0e977 .section__heading___0e977{
-    font-size:140%;
-    /*font-family: 'Caveat Brush', cursive;*/
-    font-family: 'Rock Salt', cursive;
-    color:#fff;
-    line-height:210%;
 
-}
 .text-image___0e977 .section__body{
     text-align:right;
     color:#00d2f2;
@@ -355,14 +347,14 @@ section.lead-capture .form__label{
     padding: 0 1rem 0 0;
 
 }
-.text-image___ed23f .section__heading___ed23f{
-    font-size:140%;
-    /*font-family: 'Caveat Brush', cursive;*/
-font-family: 'Blackstone', cursive;
 
+section__heading section__heading___0e977
 
+.text-image___ed23f .section__heading___ed23f, .text-image___0e977 .section__heading___0e977,  {
+    font-size:275%;
+    font-family: 'Amithen', cursive;
     color:#fff;
-    line-height:210%;
+    line-height:150%;
 
 }
 .text-image___ed23f .section__body{
