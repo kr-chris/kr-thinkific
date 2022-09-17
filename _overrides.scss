@@ -10,6 +10,18 @@
   src: url({{ 'Amithen.ttf' | theme_asset_url }});
 
 }
+@font-face {
+  font-family: Bebas;
+  src: url({{ 'BebasNeue-Regular.ttf' | theme_asset_url }});
+
+}
+h2.section__heading{
+     font-family: 'Bebas' !important;
+     font-size:300%;
+     letter-spacing: 1px;
+     word-spacing: 3px;
+}
+
 /***** DROP IN BLOG ****/
 .dib-post-title{
 font-size:200%;
@@ -348,12 +360,11 @@ section.lead-capture .form__label{
 
 }
 
-.text-image___ed23f .section__heading___ed23f, .text-image___0e977 .section__heading___0e977,  {
-    font-size:300%;
+h2 span.testimonial {
+    font-size:100%;
     font-family: 'Amithen', cursive;
     color:#fff;
     line-height:150%;
-    letter-spacing:2px;
     word-spacing: 10px;
 
 
