@@ -288,6 +288,13 @@ section.text-icon___56c2d{
   text-align:center;
 }
 }
+
+@media only screen and (min-width: 768px) {
+.section__headings{
+     margin-bottom:1rem;
+}
+}
+
 @media only screen and (max-width: 992px) {
 .section__content-alignment--right .text-image__body, .section__content-alignment--right .text-image__body header.section__headings h2.section__heading{
   text-align:center;
