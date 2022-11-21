@@ -158,8 +158,19 @@ ul-dib-cat-menu a{
 }
 /*Apply padding to the left and right when on mobile*/
 
-.dib ul > li > ul > li{
+.dib ul > li > ul > li, .dib ol > li > ol li{
      font-size:75%;
+}
+div#dib-posts #dib-template-2 .dib-post-single .dib-post-content img:not(.dib-noborder):not(.dib-prod-img){
+     border:0;
+     border-radius:0;
+     box-shadow:none;
+     margin:0;
+}
+#dib-template-2 .dib-post-single .dib-post-content #mc_embed_signup{
+     margin:0 auto;
+     width:700px;
+     padding:20px;
 }
 
 @media only screen and (max-width: 600px) {
